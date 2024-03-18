@@ -4,6 +4,7 @@ import 'package:flutter_sm_rp/screens/first.dart';
 import 'package:flutter_sm_rp/screens/fourth.dart';
 import 'package:flutter_sm_rp/screens/second.dart';
 import 'package:flutter_sm_rp/screens/third.dart';
+import 'package:flutter_sm_rp/screens/weather.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       //home: FirstScreen(), // Provider
       //home: SecondScreen(), // State Provider
-      home: ThirdScreen(), // State Notifier Provider
+      //home: ThirdScreen(), // State Notifier Provider
+      home: FourthScreen(), // Future Provider
     );
   }
 }

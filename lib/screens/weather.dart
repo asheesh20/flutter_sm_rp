@@ -1,6 +1,6 @@
-import 'package:dummy1_app/riverpod/future_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_sm_rp/riverpod/future_provider.dart';
 
 class WeatherScreen extends ConsumerWidget {
   const WeatherScreen({super.key});
