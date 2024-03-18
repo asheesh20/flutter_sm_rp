@@ -16,10 +16,9 @@ class MyApp extends StatelessWidget {
   Widget build(context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      //home: FirstScreen(),        // Provider
-      home: SecondScreen(), // State Provider
-      //home: ThirdScreen(), // State Notifier Provider
-      //home: FourthScreen(),
+      //home: FirstScreen(), // Provider
+      //home: SecondScreen(), // State Provider
+      home: ThirdScreen(), // State Notifier Provider
     );
   }
 }

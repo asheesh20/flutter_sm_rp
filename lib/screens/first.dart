@@ -8,7 +8,7 @@ import 'package:flutter_sm_rp/riverpod/provider.dart';
 // StatelessWidget
 
 // 1st Method:
-/*
+
 class FirstScreen extends ConsumerWidget {
   const FirstScreen({super.key});
 
@@ -36,9 +36,11 @@ class FirstScreen extends ConsumerWidget {
     );
   }
 }
-*/
-// 2nd Method :
+
+
 /*
+// 2nd Method :
+
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
 
@@ -65,13 +67,16 @@ class FirstScreen extends StatelessWidget {
               ],
             );
           },
-          // bot
         ),
       ),
     );
   }
 }
 */
+
+
+
+/*
 // StatefulWidget
 
 class FirstScreen extends StatefulWidget {
@@ -109,3 +114,4 @@ class _FirstScreenState extends State<FirstScreen> {
     );
   }
 }
+*/

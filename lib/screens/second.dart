@@ -9,6 +9,7 @@ class SecondScreen extends ConsumerWidget {
   void onSumbit(WidgetRef ref, String value) {
     ref.read(nameStateProvider.notifier).update((state) => value);
     // notifier allows to change values
+    // notifier providers various methods to change state
   }
 
   @override

@@ -7,7 +7,7 @@ final counterProvider = StateNotifierProvider<CounterNotifier, int>(
 );
 
 class CounterNotifier extends StateNotifier<int> {
-  CounterNotifier() : super(0);
+  CounterNotifier() : super(0); // super contains initial state
 
   void increment() {
     state++;
