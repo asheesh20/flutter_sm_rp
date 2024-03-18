@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sm_rp/screens/counter_screen.dart';
 
+///Custom StatelessWidget that is the first screen.
+///
+///Converted to ConsumerWidget inorder to read, watch and listen the state.
+///
+
 class ThirdScreen extends StatelessWidget {
   const ThirdScreen({super.key});
 

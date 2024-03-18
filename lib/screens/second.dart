@@ -3,8 +3,18 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_sm_rp/riverpod/provider.dart';
 import 'package:flutter_sm_rp/riverpod/state_provider.dart';
 
+///Custom StatelessWidget that is the first screen.
+///
+///Converted to ConsumerWidget inorder to read, watch and listen the state.
+///
 class SecondScreen extends ConsumerWidget {
   const SecondScreen({super.key});
+
+  /// Function executed when onSubmitted is Pressed.
+  ///
+  /// Holds WidgetRef ref and String value as Parameter.
+  ///
+  ///Function containing ref.read
 
   void onSumbit(WidgetRef ref, String value) {
     ref.read(nameStateProvider.notifier).update((state) => value);

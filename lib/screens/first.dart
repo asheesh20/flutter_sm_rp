@@ -9,6 +9,10 @@ import 'package:flutter_sm_rp/riverpod/provider.dart';
 
 // 1st Method:
 
+///Custom StatelessWidget that is the first screen.
+///
+///Converted to ConsumerWidget inorder to read, watch and listen the state.
+
 class FirstScreen extends ConsumerWidget {
   const FirstScreen({super.key});
 

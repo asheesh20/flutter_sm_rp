@@ -2,6 +2,7 @@
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+/// Contains String as value.
 final nameProvider = Provider<String>((ref) {
   return 'Provider Example';
 });
